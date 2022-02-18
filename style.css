@@ -66,6 +66,8 @@ header button {
   border-radius: 20px;
   border: 0rem;
 
+  cursor:pointer;
+
   background-color: #6BBA05;
   color: #FFFFFF;
   text-align: center;
@@ -143,6 +145,7 @@ a {
   margin-top: 32px;
   margin-right: 16px;
   border-radius: 20px;
+  cursor:pointer;
 }
 
 #wspace form button.cancelar {
@@ -255,6 +258,7 @@ a {
 
   border-radius: 20px;
   border: 0rem;
+  cursor:pointer;
   
   color: #FFFFFF;
   background-color: #6BBA05;
