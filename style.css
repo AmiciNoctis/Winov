@@ -4,8 +4,11 @@
 
 html,
 body {
-  width: 1360px;
+  width: 100%;
   height: 100%;
+
+  max-width: 136.6rem;
+  min-width: 40rem;
 
   font-family: brother-1816, sans-serif;
   font-weight: 400;
@@ -84,6 +87,9 @@ a {
 #wspace {
   display: flex;
   justify-content: center;
+
+  padding-bottom: 192px;
+
   background-color: #FFFFFF;
   font-family: Brother 1816, Bold;
   flex-wrap: wrap;
@@ -93,7 +99,6 @@ a {
   width: 579px;
   height: 384px;
   margin-top: 120px;
-  margin-bottom: 192px;
   margin-right: 94px;
   
   text-align: left;
@@ -105,6 +110,7 @@ a {
 
 #wspace form p{
   margin-bottom: 56px;
+  line-height: 28px;
 }
 
 #wspace form h5{
@@ -174,8 +180,8 @@ a {
 }
 
 #topo h1 {
-  width: 538px;
-  height: 56px;
+  width: 53.8rem;
+  height: 5.6rem;
   padding-top: 42px;
 
   color: #08162B
@@ -184,6 +190,12 @@ a {
 #topo p {
   width: 1028px;
   height: 49px;
+
+  min-width: 400px;
+
+  margin-left: auto;
+  margin-right: auto;
+
   justify-content: center;
 
   padding-top: 16px;
@@ -269,8 +281,11 @@ footer h1 {
 }
 
 footer p {
+  
+
   margin-right: 689px;
   margin-left: 24px;
+  
   margin-top: 17px;
   margin-bottom: 14px;
 
