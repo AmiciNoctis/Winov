@@ -216,7 +216,8 @@ a {
   width: 412px;
   height: 385px;
   margin-bottom: 56px;
-
+  
+  box-shadow: 0px 3px 6px #00000029;
   background-color: #FFFFFF;
   border-radius: 8px;
 }
@@ -281,8 +282,6 @@ footer h1 {
 }
 
 footer p {
-  
-
   margin-right: 689px;
   margin-left: 24px;
   
