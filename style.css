@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  width: 1360px;
+  height: 100%;
+
+  font-family: brother-1816, sans-serif;
+  font-weight: 400;
+  background-color: #F1F4FA;
+}
+
+body h3, h1 {
+  color: #08162B;
+}
+
+body p {
+  color: #3E5570;
+}
+
+header {
+  height: 72px;
+
+  display: flex;
+  justify-content: space-between;
+  height: 7.2rem;
+  background-color: #FFFFFF;
+
+  border-bottom: 2px #F1F4FA;
+}
+
+hr {
+  border: #F1F4FA solid 1px ;
+}
+
+.logo {
+  text-align: center;
+  justify-content: flex-end;
+
+  margin-top: 1.5rem;
+  margin-left: 4.2rem;
+
+  width: 14.2rem;
+  height: 3.8rem;
+
+  font-family: brother-1816, fantasy;
+  font-size: 2.6rem;
+  font-weight: 900;
+  color: #08162B;
+}
+
+header button {
+  width: 201px; 
+  height: 33px;
+  justify-content: flex-end;
+
+  margin-top: 2rem;
+  margin-right: 4.1rem;
+  margin-bottom: 1.9rem;
+
+  border-radius: 20px;
+  border: 0rem;
+
+  background-color: #6BBA05;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+header button:hover {
+  background-color: #5DA11B;
+}
+
+main {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#wspace {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  font-family: Brother 1816, Bold;
+  flex-wrap: wrap;
+}
+
+#wspace form {
+  width: 579px;
+  height: 384px;
+  margin-top: 120px;
+  margin-bottom: 192px;
+  margin-right: 94px;
+  
+  text-align: left;
+}
+
+#wspace form h1{
+  margin-bottom: 8px;
+}
+
+#wspace form p{
+  margin-bottom: 56px;
+}
+
+#wspace form h5{
+  margin-bottom: 4px;
+}
+
+#wspace form small{
+  margin-bottom: 16px;
+}
+
+#wspace form select {
+  width: 412px;
+  height: 40px;
+
+  margin-top: 16px;
+  margin-right: 167px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+  border-radius: 20px;
+  border: 1px solid #6C8198;
+
+  box-shadow: 0px 4px 10px #00000029;
+}
+
+#wspace form button {
+  width: 140px;
+  height: 40px;
+  margin-top: 32px;
+  margin-right: 16px;
+  border-radius: 20px;
+}
+
+#wspace form button.cancelar {
+  background-color: #FFFFFF;
+  border: 2px solid #3E5570;
+}
+
+#wspace form button.cancelar:hover {
+  background-color: #3E5570;
+  color: #FFFFFF;
+  border: none;
+}
+
+#wspace form button.começar {
+  background-color: #6BBA21;
+  color: #FFFFFF;
+  border: none
+}
+
+#wspace form button.começar:hover {
+  background-color: #5DA11B;
+}
+
+
+#wspace img{
+  width: 412px;
+  height: 412px;
+  margin-right: 150px;
+}
+
+#topo {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#topo h1 {
+  width: 538px;
+  height: 56px;
+  padding-top: 42px;
+
+  color: #08162B
+}
+
+#topo p {
+  width: 1028px;
+  height: 49px;
+  justify-content: center;
+
+  padding-top: 16px;
+  padding-bottom: 48px;
+}
+
+#conteudo {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-left: 41px;
+  margin-right: 41px;
+  margin-bottom: 24px;
+}
+
+.card {
+  width: 412px;
+  height: 385px;
+  margin-bottom: 56px;
+
+  background-color: #FFFFFF;
+  border-radius: 8px;
+}
+
+.card img{
+  width: 174px;
+  height: 174px;
+  margin-left: 95px;
+  margin-right: 95px;
+}
+
+.card h3, p, button {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card h3 {
+  width: auto;
+  height: 34px;
+  font-size: 26px;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  width: 364px;
+  height: 49px;
+  margin-bottom: 32px;
+}
+
+.card button {
+  width: 240px; 
+  height: 40px;
+
+  border-radius: 20px;
+  border: 0rem;
+  
+  color: #FFFFFF;
+  background-color: #6BBA05;
+}
+
+.card button:hover {
+  background-color: #5DA11B;
+}
+
+footer {
+  height: 43px;
+  display: flex;
+  background-color: #08162B;
+}
+
+footer h1 {
+  width: 19px;
+  height: 34px;
+  margin-left: 41px;
+  margin-top: 9px;
+
+  font-family: brother-1816, fantasy;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+footer p {
+  margin-right: 689px;
+  margin-left: 24px;
+  margin-top: 17px;
+  margin-bottom: 14px;
+
+  color: #FFFFFF;
+  font-size: 11px;
+
+}
+
+
+
