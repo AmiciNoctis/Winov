@@ -34,7 +34,7 @@ header {
 }
 
 hr {
-  border: #F1F4FA solid 1px ;
+  border: #E4E8F0 solid 0.5px;
 }
 
 .logo {
@@ -87,8 +87,12 @@ a {
 #wspace {
   display: flex;
   justify-content: center;
+  position: relative;
 
+  padding-left: 41px;
+  padding-right: 41px;
   padding-bottom: 192px;
+  padding-top: 120px;
 
   background-color: #FFFFFF;
   font-family: Brother 1816, Bold;
@@ -97,9 +101,10 @@ a {
 
 #wspace form {
   width: 579px;
+  min-width: 300px;
   height: 384px;
-  margin-top: 120px;
-  margin-right: 94px;
+  margin-left: 83px;
+  margin-right: 46px;
   
   text-align: left;
 }
@@ -172,8 +177,9 @@ a {
 
 #wspace img{
   width: 412px;
+  min-width: 300px;
   height: 412px;
-  margin-right: 150px;
+  margin-right: 109px;
 }
 
 #topo {
