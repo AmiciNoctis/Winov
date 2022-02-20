@@ -21,6 +21,7 @@ body h3, h1 {
 
 body p {
   color: #3E5570;
+  line-height: 28px;
 }
 
 header {
@@ -293,6 +294,7 @@ footer p {
 
   color: #FFFFFF;
   font-size: 11px;
+  line-height: normal;
 
 }
 
