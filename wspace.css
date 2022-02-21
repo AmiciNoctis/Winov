@@ -1,0 +1,104 @@
+#wspace {
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  padding-left: 41px;
+  padding-right: 41px;
+  padding-bottom: 192px;
+  padding-top: 120px;
+
+  background-color: #FFFFFF;
+  font-family: Brother 1816, Bold;
+  flex-wrap: wrap;
+}
+
+#wspace form {
+  width: 579px;
+  min-width: 300px;
+  height: 384px;
+  margin-left: 83px;
+  margin-right: 46px;
+  
+  text-align: left;
+}
+
+#wspace form h1{
+  margin-bottom: 8px;
+}
+
+#wspace form p{
+  margin-bottom: 56px;
+  line-height: 28px;
+  color: #3E5570;
+}
+
+#wspace form h5{
+  margin-bottom: 4px;
+}
+
+#wspace form small{
+  margin-bottom: 16px;
+  color: #3E5570;
+}
+
+#wspace form select {
+  width: 412px;
+  height: 40px;
+
+  margin-top: 16px;
+  margin-right: 167px;
+
+  padding-left: 16px;
+  padding-right: 16px;
+
+  border-radius: 20px;
+  border: 1px solid #6C8198;
+  cursor: pointer;
+
+  box-shadow: 0px 4px 10px #00000029;
+}
+
+#wspace form select:focus {
+  border: 2px solid #92D328;
+}
+
+#wspace form button {
+  width: 140px;
+  height: 40px;
+  margin-top: 32px;
+  margin-right: 16px;
+  border-radius: 20px;
+  cursor:pointer;
+}
+
+#wspace form button.cancelar {
+  background-color: #FFFFFF;
+  border: 2px solid #3E5570;
+}
+
+#wspace form button.cancelar:hover {
+  background-color: #3E5570;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.3s;
+}
+
+#wspace form button.começar {
+  background-color: #6BBA21;
+  color: #FFFFFF;
+  border: none;
+  transition: 0.3s;
+}
+
+#wspace form button.começar:hover {
+  background-color: #92D328;
+}
+
+
+#wspace img{
+  width: 412px;
+  min-width: 300px;
+  height: 412px;
+  margin-right: 109px;
+}

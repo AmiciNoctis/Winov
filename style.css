@@ -27,28 +27,27 @@ body p {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   background-color: #FFFFFF;
+
+  padding-top: 15px;
   padding-bottom: 20px;
 
   border-bottom: 2px #F1F4FA;
 }
 
 hr {
-  border: #E4E8F0 solid 0.5px;
+  border: #E4E8F0 solid 0.1px;
 }
 
-.logo {
+header img {
   text-align: center;
   justify-content: flex-start;
   position: relative;
 
-  margin-top: 1.4rem;
+  width: 142px;
+  height: 42px;
   margin-left: 4.2rem;
-
-  font-family: brother-1816, fantasy;
-  font-size: 2.6rem;
-  font-weight: 900;
-  color: #08162B;
 }
 
 header button {
@@ -57,7 +56,6 @@ header button {
   justify-content: flex-end;
   position: relative;
 
-  margin-top: 2rem;
   margin-left: 2.6rem;
   margin-right: 4.2rem;
 
@@ -65,14 +63,15 @@ header button {
   border: 0rem;
 
   cursor:pointer;
+  transition: 0.3s;
 
-  background-color: #6BBA05;
+  background-color: #6BBA21;
   color: #FFFFFF;
   text-align: center;
 }
 
 header button:hover {
-  background-color: #5DA11B;
+  background-color: #92D328;
 }
 
 main {
@@ -82,104 +81,6 @@ main {
 a {
   text-decoration: none;
   color: #FFFFFF;
-}
-
-#wspace {
-  display: flex;
-  justify-content: center;
-  position: relative;
-
-  padding-left: 41px;
-  padding-right: 41px;
-  padding-bottom: 192px;
-  padding-top: 120px;
-
-  background-color: #FFFFFF;
-  font-family: Brother 1816, Bold;
-  flex-wrap: wrap;
-}
-
-#wspace form {
-  width: 579px;
-  min-width: 300px;
-  height: 384px;
-  margin-left: 83px;
-  margin-right: 46px;
-  
-  text-align: left;
-}
-
-#wspace form h1{
-  margin-bottom: 8px;
-}
-
-#wspace form p{
-  margin-bottom: 56px;
-  line-height: 28px;
-  color: #3E5570;
-}
-
-#wspace form h5{
-  margin-bottom: 4px;
-}
-
-#wspace form small{
-  margin-bottom: 16px;
-  color: #3E5570;
-}
-
-#wspace form select {
-  width: 412px;
-  height: 40px;
-
-  margin-top: 16px;
-  margin-right: 167px;
-
-  padding-left: 16px;
-  padding-right: 16px;
-
-  border-radius: 20px;
-  border: 1px solid #6C8198;
-
-  box-shadow: 0px 4px 10px #00000029;
-}
-
-#wspace form button {
-  width: 140px;
-  height: 40px;
-  margin-top: 32px;
-  margin-right: 16px;
-  border-radius: 20px;
-  cursor:pointer;
-}
-
-#wspace form button.cancelar {
-  background-color: #FFFFFF;
-  border: 2px solid #3E5570;
-}
-
-#wspace form button.cancelar:hover {
-  background-color: #3E5570;
-  color: #FFFFFF;
-  border: none;
-}
-
-#wspace form button.começar {
-  background-color: #6BBA21;
-  color: #FFFFFF;
-  border: none
-}
-
-#wspace form button.começar:hover {
-  background-color: #5DA11B;
-}
-
-
-#wspace img{
-  width: 412px;
-  min-width: 300px;
-  height: 412px;
-  margin-right: 109px;
 }
 
 #topo {
@@ -214,19 +115,26 @@ a {
   display: flex;
   flex-wrap: wrap;
 
-  margin-left: 41px;
-  margin-right: 41px;
+  margin-left: 30px;
+  margin-right: auto;
   margin-bottom: 24px;
 }
 
 .card {
   width: 412px;
   height: 385px;
+  margin-right: 24px;
   margin-bottom: 56px;
   
   box-shadow: 0px 3px 6px #00000029;
   background-color: #FFFFFF;
   border-radius: 8px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0px 12px 24px #00000029;
+  cursor: pointer;
 }
 
 .card img{
@@ -262,32 +170,32 @@ a {
 
   border-radius: 20px;
   border: 0rem;
+
   cursor:pointer;
-  
+  transition: 0.3s;
   color: #FFFFFF;
   background-color: #6BBA05;
 }
 
 .card button:hover {
-  background-color: #5DA11B;
+  background-color: #92D328;
 }
 
 footer {
   height: 43px;
   display: flex;
+  align-items: center;
+
   background-color: #08162B;
 }
 
-footer h1 {
-  width: 19px;
-  height: 34px;
+footer img {
+  width: 42px;
+  height: 41px;
   margin-left: 41px;
-  margin-top: 9px;
+  margin-top: auto;
+  margin-bottom: auto;
   position: relative;
-
-  font-family: brother-1816, fantasy;
-  font-size: 24px;
-  color: #FFFFFF;
 }
 
 footer p {
@@ -296,7 +204,6 @@ footer p {
 
   margin-left: 24px;
   margin-right: 24px;
-  margin-top: 17px;
 
   color: #FFFFFF;
   font-size: 11px;
