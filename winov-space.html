@@ -20,30 +20,42 @@
 
 <body>
   <main id="wspace">
-    <form action="">
+    
+    <div class="content">
       <h1>Winov Space</h1>
+
       <p>
-        O Winovspace é um serviço de acesso remoto feito através do RDP (Remote Desktop Protocols),
-        que provisiona um ambiente de trabalho Windows Server com gerenciamento de usuários centralizado
+       O Winovspace é um serviço de acesso remoto feito através do RDP (Remote Desktop Protocols),
+       que provisiona um ambiente de trabalho Windows Server com gerenciamento de usuários centralizado
         e com a possibilidade de personalização.
-      </p>
+     </p>
+
+     <form action="">
       <h5>Modelo de Winov Space</h5>
       <small>Antes de começar, escolha a configuração mais adequada para sua equipe.</small>
+
       <select name="select" >
         <option value="valor1">Stantard (2 vCPUs | Memória: 4GB)</option>
         <option value="valor2">Performance (2 vCPUs | Memória: 8GB)</option>
         <option value="valor3">Power (4 vCPUs | Memória: 16GB)</option>
         <option value="valor4">Power Pro (8 vCPUs | Memória: 32GB)</option>
       </select>
-      <button id="cancelar" class="cancelar ">Cancelar</button>
-      <button id="Começar" class="começar">Começar</button>
+
+      <a href="index.html" target="_self" id="cancelar" class="cancelar" >Cancelar</a>
+
+      <button type="submit" id="Começar" class="começar">Começar</button>
+
     </form>
+
+    </div>
     
     <img src="img/img_conectividade-1.svg" alt="Winov Space">
   </main>
+
   <footer>
     <img src="img/Simbolo_Winov.svg" alt="">
     <p>Preferências de Cookies | © 2021, Vicente Pereira da Silva Serviços Tecnológicos - Todos os direitos Reservados</p>
   </footer>
+
 </body>
 </html>

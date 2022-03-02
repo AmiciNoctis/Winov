@@ -27,6 +27,9 @@ body p {
 header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
+
+  text-align: center;
   align-items: center;
   background-color: #FFFFFF;
 
@@ -40,9 +43,7 @@ hr {
   border: #E4E8F0 solid 0.1px;
 }
 
-header img {
-  text-align: center;
-  justify-content: flex-start;
+header a {
   position: relative;
 
   width: 142px;
@@ -53,14 +54,15 @@ header img {
 header button {
   width: 201px; 
   height: 33px;
-  justify-content: flex-end;
+  min-width: 120px;
+  
   position: relative;
 
   margin-left: 2.6rem;
   margin-right: 4.2rem;
-
+ 
   border-radius: 20px;
-  border: 0rem;
+  border: none;
 
   cursor:pointer;
   transition: 0.3s;
@@ -98,7 +100,6 @@ a {
 
 #topo p {
   width: 1028px;
-
   min-width: 300px;
 
   margin-left: auto;
@@ -123,6 +124,7 @@ a {
 .card {
   width: 412px;
   height: 385px;
+
   margin-right: 24px;
   margin-bottom: 56px;
   
@@ -140,6 +142,7 @@ a {
 .card img{
   width: 174px;
   height: 174px;
+
   margin-left: 95px;
   margin-right: 95px;
 }
@@ -152,6 +155,7 @@ a {
 .card h3 {
   width: auto;
   height: 34px;
+
   font-size: 26px;
 
   margin-top: 8px;
@@ -192,9 +196,11 @@ footer {
 footer img {
   width: 42px;
   height: 41px;
+
   margin-left: 41px;
   margin-top: auto;
   margin-bottom: auto;
+
   position: relative;
 }
 
